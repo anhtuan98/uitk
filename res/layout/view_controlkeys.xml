@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="0.1" >
+	<ImageButton android:id="@+id/btn_Shift"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content" android:text="E"
+	
+				android:src="@drawable/shift_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+			
+			<ImageButton android:id="@+id/btn_Enter"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content" android:text="E"
+	
+				android:src="@drawable/enter_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+			<ImageButton android:id="@+id/btn_Space"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content" android:text="U"
+				android:src="@drawable/space_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+			<ImageButton android:id="@+id/btn_Delete"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content" android:text="I"
+				android:src="@drawable/bspace_off" android:scaleType="fitXY"
+				android:layout_weight="1.0"
+				android:onClick="handleBackspace">
+			</ImageButton>
+			
+			<ImageButton android:id="@+id/btn_Done"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content" android:text="E"
+				android:src="@drawable/done" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+</TableRow>

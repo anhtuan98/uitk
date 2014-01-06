@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ifreehandsoftkeyboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	<uses-sdk android:minSdkVersion="13" android:targetSdkVersion="10" android:maxSdkVersion="17"/>
+    <application android:label="UITK FreeHandKeyboard" android:icon="@drawable/ifreehand_icon" >
+        <service
+            android:name="com.example.ifreehandsoftkeyboard.MainActivity"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:icon="@drawable/ifreehand_icon">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <activity
+            android:name="com.example.ifreehandsoftkeyboard.SettingActivity"
+            android:label="@string/title_activity_setting" 
+            android:icon="@drawable/ifreehand_icon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> 
+    			<category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="500dp" >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" 
+        android:weightSum="1">
+
+        <TableRow
+            android:id="@+id/row0"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="UITK"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_span="10"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+              />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/L1Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/s_off"
+                android:text="S" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/L2Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/n_off"
+                android:text="N" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/L3Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/t_off"
+                android:text="T" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/L4Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/h_off"
+                android:text="H" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/L5Btn"
+                android:layout_width="0dp"
+                android:layout_column="4"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/d_off"
+                android:text="D" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/RXBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_weight="2.0"
+                android:clickable="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/R1Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="6"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/a_off"
+                android:text="A" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/R2Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="7"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/o_off"
+                android:text="O" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/R3Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="8"
+                android:layout_toLeftOf="@+id/R4Btn"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/e_off"
+                android:text="E" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/R4Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="9"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/u_off"
+                android:text="U" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/R5Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="10"
+                android:layout_weight="1.0"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/i_off"
+                android:text="I" >
+            </ImageButton>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_Shift"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/shift_off"
+                android:text="E" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_Enter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/enter_off"
+                android:text="E" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_Space"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/space_off"
+                android:text="U" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_Delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="handleBackspace"
+                android:scaleType="fitXY"
+                android:src="@drawable/bspace_off"
+                android:text="I" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_Done"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/done"
+                android:text="E" >
+            </ImageButton>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

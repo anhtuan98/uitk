@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="0.9" >
+    	<ImageButton android:id="@+id/L1Btn"
+				android:layout_width="0dp" android:layout_height="wrap_content"
+				android:layout_column="0" android:text="S" android:clickable="false"
+				android:src="@drawable/s_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+
+			<ImageButton android:id="@+id/L2Btn"
+				android:layout_width="0dp" android:layout_height="wrap_content"
+				android:layout_column="1" android:text="N" android:clickable="false"
+				android:src="@drawable/n_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+
+			<ImageButton android:id="@+id/L3Btn"
+				android:layout_width="0dp" android:layout_height="wrap_content"
+				android:text="T" android:layout_column="2" android:clickable="false"
+				android:src="@drawable/t_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+
+			<ImageButton android:id="@+id/L4Btn"
+				android:layout_width="0dp" android:layout_height="wrap_content"
+				android:text="H" android:layout_column="3" android:clickable="false"
+				android:src="@drawable/h_off" android:scaleType="fitXY"
+				android:layout_weight="1.0">
+			</ImageButton>
+
+			<ImageButton android:id="@+id/L5Btn"
+				android:layout_width="0dp" android:text="D" android:layout_column="4"
+				android:clickable="false" android:src="@drawable/d_off"
+				android:scaleType="fitXY" android:layout_weight="1.0">
+			</ImageButton>
+
+</TableRow>

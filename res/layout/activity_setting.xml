@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="ime_settings"
+    android:title="Setting" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <Preference
+        android:key="prefs_title_key"
+        android:persistent="false"
+        android:selectable="false"
+        android:state_enabled="false"
+        android:summary="How to"
+        android:title="FreeHandKeyboard" >
+    </Preference>
+</PreferenceScreen>
